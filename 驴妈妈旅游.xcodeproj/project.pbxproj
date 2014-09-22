@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC15391719D029F100D6C7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15391619D029F100D6C7C5 /* Foundation.framework */; };
+		BC15391919D029F100D6C7C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15391819D029F100D6C7C5 /* CoreGraphics.framework */; };
+		BC15391B19D029F100D6C7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15391A19D029F100D6C7C5 /* UIKit.framework */; };
+		BC15392119D029F100D6C7C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC15391F19D029F100D6C7C5 /* InfoPlist.strings */; };
+		BC15392319D029F100D6C7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15392219D029F100D6C7C5 /* main.m */; };
+		BC15392719D029F100D6C7C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15392619D029F100D6C7C5 /* AppDelegate.m */; };
+		BC15392919D029F100D6C7C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC15392819D029F100D6C7C5 /* Images.xcassets */; };
+		BC15393019D029F100D6C7C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15392F19D029F100D6C7C5 /* XCTest.framework */; };
+		BC15393119D029F100D6C7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15391619D029F100D6C7C5 /* Foundation.framework */; };
+		BC15393219D029F100D6C7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC15391A19D029F100D6C7C5 /* UIKit.framework */; };
+		BC15393A19D029F100D6C7C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC15393819D029F100D6C7C5 /* InfoPlist.strings */; };
+		BC15393C19D029F100D6C7C5 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15393B19D029F100D6C7C5 /* _____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC15393319D029F100D6C7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC15390B19D029F100D6C7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC15391219D029F100D6C7C5;
+			remoteInfo = "驴妈妈旅游";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC15391319D029F100D6C7C5 /* 驴妈妈旅游.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "驴妈妈旅游.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC15391619D029F100D6C7C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC15391819D029F100D6C7C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC15391A19D029F100D6C7C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC15391E19D029F100D6C7C5 /* 驴妈妈旅游-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "驴妈妈旅游-Info.plist"; sourceTree = "<group>"; };
+		BC15392019D029F100D6C7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC15392219D029F100D6C7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC15392419D029F100D6C7C5 /* 驴妈妈旅游-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "驴妈妈旅游-Prefix.pch"; sourceTree = "<group>"; };
+		BC15392519D029F100D6C7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC15392619D029F100D6C7C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC15392819D029F100D6C7C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC15392E19D029F100D6C7C5 /* 驴妈妈旅游Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "驴妈妈旅游Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC15392F19D029F100D6C7C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC15393719D029F100D6C7C5 /* 驴妈妈旅游Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "驴妈妈旅游Tests-Info.plist"; sourceTree = "<group>"; };
+		BC15393919D029F100D6C7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC15393B19D029F100D6C7C5 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC15391019D029F100D6C7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15391919D029F100D6C7C5 /* CoreGraphics.framework in Frameworks */,
+				BC15391B19D029F100D6C7C5 /* UIKit.framework in Frameworks */,
+				BC15391719D029F100D6C7C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15392B19D029F100D6C7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15393019D029F100D6C7C5 /* XCTest.framework in Frameworks */,
+				BC15393219D029F100D6C7C5 /* UIKit.framework in Frameworks */,
+				BC15393119D029F100D6C7C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC15390A19D029F100D6C7C5 = {
+			isa = PBXGroup;
+			children = (
+				BC15391C19D029F100D6C7C5 /* 驴妈妈旅游 */,
+				BC15393519D029F100D6C7C5 /* 驴妈妈旅游Tests */,
+				BC15391519D029F100D6C7C5 /* Frameworks */,
+				BC15391419D029F100D6C7C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC15391419D029F100D6C7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC15391319D029F100D6C7C5 /* 驴妈妈旅游.app */,
+				BC15392E19D029F100D6C7C5 /* 驴妈妈旅游Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC15391519D029F100D6C7C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC15391619D029F100D6C7C5 /* Foundation.framework */,
+				BC15391819D029F100D6C7C5 /* CoreGraphics.framework */,
+				BC15391A19D029F100D6C7C5 /* UIKit.framework */,
+				BC15392F19D029F100D6C7C5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC15391C19D029F100D6C7C5 /* 驴妈妈旅游 */ = {
+			isa = PBXGroup;
+			children = (
+				BC15392519D029F100D6C7C5 /* AppDelegate.h */,
+				BC15392619D029F100D6C7C5 /* AppDelegate.m */,
+				BC15392819D029F100D6C7C5 /* Images.xcassets */,
+				BC15391D19D029F100D6C7C5 /* Supporting Files */,
+			);
+			path = "驴妈妈旅游";
+			sourceTree = "<group>";
+		};
+		BC15391D19D029F100D6C7C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC15391E19D029F100D6C7C5 /* 驴妈妈旅游-Info.plist */,
+				BC15391F19D029F100D6C7C5 /* InfoPlist.strings */,
+				BC15392219D029F100D6C7C5 /* main.m */,
+				BC15392419D029F100D6C7C5 /* 驴妈妈旅游-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC15393519D029F100D6C7C5 /* 驴妈妈旅游Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC15393B19D029F100D6C7C5 /* _____Tests.m */,
+				BC15393619D029F100D6C7C5 /* Supporting Files */,
+			);
+			path = "驴妈妈旅游Tests";
+			sourceTree = "<group>";
+		};
+		BC15393619D029F100D6C7C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC15393719D029F100D6C7C5 /* 驴妈妈旅游Tests-Info.plist */,
+				BC15393819D029F100D6C7C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC15391219D029F100D6C7C5 /* 驴妈妈旅游 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC15393F19D029F100D6C7C5 /* Build configuration list for PBXNativeTarget "驴妈妈旅游" */;
+			buildPhases = (
+				BC15390F19D029F100D6C7C5 /* Sources */,
+				BC15391019D029F100D6C7C5 /* Frameworks */,
+				BC15391119D029F100D6C7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "驴妈妈旅游";
+			productName = "驴妈妈旅游";
+			productReference = BC15391319D029F100D6C7C5 /* 驴妈妈旅游.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC15392D19D029F100D6C7C5 /* 驴妈妈旅游Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC15394219D029F100D6C7C5 /* Build configuration list for PBXNativeTarget "驴妈妈旅游Tests" */;
+			buildPhases = (
+				BC15392A19D029F100D6C7C5 /* Sources */,
+				BC15392B19D029F100D6C7C5 /* Frameworks */,
+				BC15392C19D029F100D6C7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC15393419D029F100D6C7C5 /* PBXTargetDependency */,
+			);
+			name = "驴妈妈旅游Tests";
+			productName = "驴妈妈旅游Tests";
+			productReference = BC15392E19D029F100D6C7C5 /* 驴妈妈旅游Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC15390B19D029F100D6C7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = luoyang;
+				TargetAttributes = {
+					BC15392D19D029F100D6C7C5 = {
+						TestTargetID = BC15391219D029F100D6C7C5;
+					};
+				};
+			};
+			buildConfigurationList = BC15390E19D029F100D6C7C5 /* Build configuration list for PBXProject "驴妈妈旅游" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC15390A19D029F100D6C7C5;
+			productRefGroup = BC15391419D029F100D6C7C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC15391219D029F100D6C7C5 /* 驴妈妈旅游 */,
+				BC15392D19D029F100D6C7C5 /* 驴妈妈旅游Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC15391119D029F100D6C7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15392119D029F100D6C7C5 /* InfoPlist.strings in Resources */,
+				BC15392919D029F100D6C7C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15392C19D029F100D6C7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15393A19D029F100D6C7C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC15390F19D029F100D6C7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15392719D029F100D6C7C5 /* AppDelegate.m in Sources */,
+				BC15392319D029F100D6C7C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15392A19D029F100D6C7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15393C19D029F100D6C7C5 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC15393419D029F100D6C7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC15391219D029F100D6C7C5 /* 驴妈妈旅游 */;
+			targetProxy = BC15393319D029F100D6C7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC15391F19D029F100D6C7C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC15392019D029F100D6C7C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC15393819D029F100D6C7C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC15393919D029F100D6C7C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC15393D19D029F100D6C7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC15393E19D029F100D6C7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC15394019D029F100D6C7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "驴妈妈旅游/驴妈妈旅游-Prefix.pch";
+				INFOPLIST_FILE = "驴妈妈旅游/驴妈妈旅游-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC15394119D029F100D6C7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "驴妈妈旅游/驴妈妈旅游-Prefix.pch";
+				INFOPLIST_FILE = "驴妈妈旅游/驴妈妈旅游-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC15394319D029F100D6C7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/驴妈妈旅游.app/驴妈妈旅游";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "驴妈妈旅游/驴妈妈旅游-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "驴妈妈旅游Tests/驴妈妈旅游Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC15394419D029F100D6C7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/驴妈妈旅游.app/驴妈妈旅游";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "驴妈妈旅游/驴妈妈旅游-Prefix.pch";
+				INFOPLIST_FILE = "驴妈妈旅游Tests/驴妈妈旅游Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC15390E19D029F100D6C7C5 /* Build configuration list for PBXProject "驴妈妈旅游" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15393D19D029F100D6C7C5 /* Debug */,
+				BC15393E19D029F100D6C7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC15393F19D029F100D6C7C5 /* Build configuration list for PBXNativeTarget "驴妈妈旅游" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15394019D029F100D6C7C5 /* Debug */,
+				BC15394119D029F100D6C7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC15394219D029F100D6C7C5 /* Build configuration list for PBXNativeTarget "驴妈妈旅游Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC15394319D029F100D6C7C5 /* Debug */,
+				BC15394419D029F100D6C7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC15390B19D029F100D6C7C5 /* Project object */;
+}
