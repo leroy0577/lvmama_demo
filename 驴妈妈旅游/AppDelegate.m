@@ -8,15 +8,49 @@
 
 #import "AppDelegate.h"
 
+#import "HomeViewController.h"
+#import "NearbyViewController.h"
+#import "MyLvmamaViewController.h"
+#import "MoreViewController.h"
+
+#import "MyTabBarController.h"
+#import "RootViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    [self createTabBar];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)createTabBar
+{
+    MyTabBarController *mtbc = [[MyTabBarController alloc] init];
+    
+    HomeViewController *hvc = [[HomeViewController alloc] init];
+    UINavigationController *nc1 = [[UINavigationController alloc] initWithRootViewController:hvc];
+    
+    NearbyViewController *nvc = [[NearbyViewController alloc] init];
+    UINavigationController *nc2 = [[UINavigationController alloc] initWithRootViewController:nvc];
+    
+    MyLvmamaViewController *mvc = [[MyLvmamaViewController alloc] init];
+    UINavigationController *nc3 = [[UINavigationController alloc] initWithRootViewController:mvc];
+    
+    MoreViewController *movc = [[MoreViewController alloc] init];
+    UINavigationController *nc4 = [[UINavigationController alloc] initWithRootViewController:movc];
+    
+    mtbc.viewControllers = @[nc1,nc2,nc3,nc4];
+
+    self.window.rootViewController = mtbc;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

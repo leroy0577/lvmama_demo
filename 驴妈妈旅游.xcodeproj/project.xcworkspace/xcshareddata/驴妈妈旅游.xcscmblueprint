@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : {
+
+    },
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : 0,
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06749677-F21E-4D61-9A00-A71BDB3EF93C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : "%E9%A9%B4%E5%A6%88%E5%A6%88%E6%97%85%E6%B8%B8\/%E9%A9%B4%E5%A6%88%E5%A6%88%E6%97%85%E6%B8%B8\/SDWebImage\/",
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : "%E9%A9%B4%E5%A6%88%E5%A6%88%E6%97%85%E6%B8%B8\/%E9%A9%B4%E5%A6%88%E5%A6%88%E6%97%85%E6%B8%B8\/MD5\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "驴妈妈旅游",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "驴妈妈旅游.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/yangj.5166.info\/1000phone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.88.8\/qfproj",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d3b33442-203a-4b98-a023-85834f8d8bd5++4837"
+    }
+  ]
+}
